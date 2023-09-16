@@ -50,10 +50,11 @@
     border: none;
     cursor: pointer;
     margin: 10px;
+    text-align: center;
  }
- #card #remove {
-    background-color: #dadada;
-    color: #111;
+ #btn-container  {
+    text-align: center;
+
  }
  /* Add animation */
 @keyframes moveImage {
@@ -68,4 +69,3 @@
 #animated-image {
     animation: moveImage 2s ease-in-out;
 }
-animate__bounceInLeft
